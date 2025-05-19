@@ -1,0 +1,22 @@
+# POST http://127.0.0.1:3333/register
+# Accept: application/json
+# Content-Type: application/json
+
+# {
+#     "name": "Wendell Bernardo",
+#     "email": "wendell@unimontes.br",
+#     "password": "*123"
+# }
+
+# POST http://127.0.0.1:3333/login
+# Accept: application/json
+# Content-Type: application/json
+
+# {
+#     "email": "wendell@unimontes.br",
+#     "password": "*123"
+# }
+
+GET http://127.0.0.1:3333/users
+Accept: application/json
+Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6ImRmZDJjMzgyLWVmYmItNDNkZC05ZTJhLTllOWMxY2NlOTJiNyIsImlhdCI6MTc0NzMxNjkyMiwiZXhwIjoxNzQ3MzE2OTgyfQ.AP7CNw6wjvdsflGRt8YG8mKIBxv0RRDvgZVvEZAx2FA
